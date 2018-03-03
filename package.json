@@ -1,0 +1,22 @@
+{
+  "name": "socketio-game-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js --fix ./*.js",
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/mocha __tests__/*"
+  },
+  "author": "S Bhargav Rahul <rahul.surabhi09@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.18.1",
+    "mocha": "^5.0.1"
+  }
+}
