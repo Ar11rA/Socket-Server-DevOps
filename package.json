@@ -1,5 +1,5 @@
 {
-  "name": "socketio-game-node",
+  "name": "socketio-server-devops",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "start": "node index.js",
     "test": "./node_modules/mocha/bin/mocha __tests__/*"
   },
-  "author": "S Bhargav Rahul <rahul.surabhi09@gmail.com>",
+  "author": "Ar11rA",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
